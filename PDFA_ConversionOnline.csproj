@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="JsonSubTypes">
+      <HintPath>client\bin\JsonSubTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="Muhimbi.PDF.Online.Client">
+      <HintPath>client\bin\Muhimbi.PDF.Online.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>client\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly">
+      <HintPath>client\bin\Polly.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>client\bin\RestSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
